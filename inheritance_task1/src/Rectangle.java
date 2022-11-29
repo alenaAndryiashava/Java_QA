@@ -1,11 +1,9 @@
 public class Rectangle extends Figure{
-    int length;
-    int width;
 
+    public Rectangle(){}
 
-    public Rectangle(String name, int length, int width) {
-        super(name);
-        this.length = length;
-        this.width = width;
+    @Override
+    public void show() {
+        System.out.println("I'm rectangle.");
     }
 }

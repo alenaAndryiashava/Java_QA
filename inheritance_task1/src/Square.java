@@ -1,13 +1,10 @@
-public class Square extends Figure{
-    int length;
+public class Square extends Rectangle{
 
+    public Square(){}
 
-
-    public Square(String name, int length) {
-        super(name);
-        this.length = length;
+    @Override
+    public void show() {
+        System.out.println("I'm square.");
     }
-
-
 }
 

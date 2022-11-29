@@ -7,15 +7,26 @@ public class Main {
     //Создать каждую фигуру и вызвать метод.
 
         public static void main(String[] args) {
+            System.out.println("__________________");
 
-            Square square = new Square("Square " ,5);
-            Circle circle = new Circle("Circle " , 2);
-            Triangle triangle = new Triangle("Triangle", 3);
-            Rectangle rectangle = new Rectangle("Rectangle", 5,6);
-
+            Square square = new Square();
             square.show();
+            Circle circle = new Circle();
             circle.show();
+            Triangle triangle = new Triangle();
             triangle.show();
+            Rectangle rectangle = new Rectangle();
             rectangle.show();
+
+            System.out.println("-----------------");
+            Figure figure = new Triangle();
+            figure.show();
+            Rectangle rectangle1 = new Square();
+            rectangle1.show();
+
+
+
+
+
         }
     }

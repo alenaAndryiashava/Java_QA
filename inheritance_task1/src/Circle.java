@@ -1,10 +1,11 @@
 public class Circle extends Figure{
-    int radius;
 
+    public Circle() {}
 
-    public Circle(String name, int radius) {
-        super(name);
-        this.radius = radius;
+    @Override
+    public void show() {
+        System.out.println("I'm circle.");
+
     }
 }
 
