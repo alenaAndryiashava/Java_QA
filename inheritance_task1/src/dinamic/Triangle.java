@@ -1,3 +1,5 @@
+package dinamic;
+
 public class Triangle extends Figure{
 
 
